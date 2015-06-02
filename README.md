@@ -14,7 +14,7 @@ te checken en te vervangen.
 
 Dit is het class diagram (gegenereerd met VS):
 
-!(Traffic Class Diagram)[TrafficClassDiagram.png]
+![Traffic Class Diagram](TrafficClassDiagram.png)
 
 
 
