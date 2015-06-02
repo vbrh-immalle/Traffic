@@ -12,6 +12,10 @@ Het "verhaal" is:
 > Probeer zelf in de `Main`-method om nieuwe `Vehicle`'s te maken en de `Tire`
 te checken en te vervangen.
 
+Dit is het class diagram (gegenereerd met VS):
+
+!(Traffic Class Diagram)[TrafficClassDiagram.png]
+
 
 
 # OOP technieken
@@ -51,6 +55,12 @@ Ze wordt nuttig gebruikt in `CheckTires(...)` van `ServiceGarage`.
 De method `Drive(...)` van `Vehicle` is **virtual**. Momenteel doen we hier nog
 niets mee maar dit maakt het dus mogelijk dat `Drive(...)` wordt **overridden**
 in `Car`, `Bike`, `Truck` of een ander toekomstig `Vehicle`.
+
+`Tire` demonstreert op zichzelf een mooi doel van OOP : **data-hiding** en
+**encapsulatie**. De `amountOfKilometersRolled` wordt bijgehouden door de `Tire`
+zelf is dus netjes gescheiden van andere code. Bovendien hebben we hier ook al
+een member `damagePercentage` toegevoegd dat in de toekomst kan gebruikt worden
+om de schade v.d. `Tire` voor te stellen.
 
 
 
